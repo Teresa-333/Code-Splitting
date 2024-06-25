@@ -1,10 +1,11 @@
 import Pet from "./Pet";
+import loading from './Loading_icon_no_fade.webp'
 
 const Results = ({ pets }) => {
   return (
     <div className="search">
       {!pets.length ? (
-        <h1>No Pets Found</h1>
+        <img src={loading} alt="l..." />
       ) : (
         pets.map((pet) => {
           return (

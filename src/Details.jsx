@@ -5,6 +5,7 @@ import AdoptedPetContext from "./AdoptedPetContext";
 import ErrorBoundary from "./ErrorBoundary";
 import fetchPet from "./fetchPet";
 import Carousel from "./Carousel";
+import loading from './Loading_icon_no_fade.webp'
 
 const Modal = lazy(() => import("./Modal"));
 
@@ -19,7 +20,8 @@ const Details = () => {
   if (results.isLoading) {
     return (
       <div className="loading-pane">
-        <h2 className="loader">🌀</h2>
+        {/* <h2 className="loader">🌀</h2> */}
+        <img className="loader" src={loading} alt="Load..." />
       </div>
     );
   }
