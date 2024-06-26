@@ -1,5 +1,5 @@
 import Pet from "./Pet";
-import loading from './Loading_icon_no_fade.webp'
+import loading from "./Loading_icon_no_fade.webp";
 
 const Results = ({ pets }) => {
   return (
