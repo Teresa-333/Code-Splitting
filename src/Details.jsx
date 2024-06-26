@@ -5,7 +5,7 @@ import AdoptedPetContext from "./AdoptedPetContext";
 import ErrorBoundary from "./ErrorBoundary";
 import fetchPet from "./fetchPet";
 import Carousel from "./Carousel";
-import loading from './Loading_icon_no_fade.webp'
+import loading from "./Loading_icon_no_fade.webp";
 
 const Modal = lazy(() => import("./Modal"));
 
