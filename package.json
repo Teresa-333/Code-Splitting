@@ -1,5 +1,5 @@
 {
-  "name": "citr-v8-project",
+  "name": "Code-Splintting",
   "version": "8.0.0",
   "description": "Complete Intro to React v8 project",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
   "keywords": [],
-  "author": "Brian Holt",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@vitejs/plugin-react": "2.1.0",
